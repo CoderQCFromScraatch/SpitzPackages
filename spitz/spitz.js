@@ -1,3 +1,5 @@
+type = 'module'
+
 function print(x) {
   tempvar = "p" + x
 }
