@@ -5,7 +5,7 @@ spitz.print = function (x) {
 spitz.return = async function () {
  await setTimeout(function() {
  postMessage("止")
- },100)
+ },1000)
 }
 
 
