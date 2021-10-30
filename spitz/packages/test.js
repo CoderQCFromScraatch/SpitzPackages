@@ -1,4 +1,4 @@
-import "./spitz.js"
+import "./spitz.mjs"
 
 onmessage = function(arg) {
  args = arg.data
