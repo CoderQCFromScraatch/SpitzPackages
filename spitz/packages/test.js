@@ -13,5 +13,5 @@ onmessage = function(arg) {
  args = arg.data
 
 };
- spitz.print(3)
+ postMessage("#")
  spitz.return()
