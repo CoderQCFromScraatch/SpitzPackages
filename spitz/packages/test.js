@@ -1,4 +1,4 @@
 onmessage = function(arg) {
  args = arg.data
- tempvar = 3;
+ postMessage(3);
 };
