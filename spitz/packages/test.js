@@ -5,5 +5,4 @@ onmessage = function(arg) {
  
  // YOUR CODE BELOW
  tempvar = "pHello World"
-  tempvar = "r"
 };
