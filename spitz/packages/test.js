@@ -1,9 +1,9 @@
 spitz = {}
 spitz.print = function (x) {
- postMessage("p" + x)
+ postMessage(x)
 }
 spitz.return = function (r) {
- postMessage("r")
+ postMessage("止")
 }
 
 
