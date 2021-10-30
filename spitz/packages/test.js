@@ -2,8 +2,8 @@ spitz = {}
 spitz.print = function (x) {
  postMessage(x)
 }
-spitz.return = async function () {
- await setTimeout(function() {
+spitz.return = function (r) {
+setTimeout(function() {
  postMessage("止")
  },1000)
 }
