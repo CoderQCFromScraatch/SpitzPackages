@@ -5,16 +5,13 @@ spitz.print = function (x) {
  },100)
 }
 spitz.return = function (r) {
- setTimeout(function() {
  postMessage("止")
- },25)
 }
 
 
 onmessage = function(arg) {
  args = arg.data
- spitz.print(args)
-
-};
  spitz.print("#")
- spitz.return()
+  spitz.print("AMAZING")
+  spitz.return()
+};
