@@ -5,8 +5,8 @@ spitz.print = function (x) {
  },25)
 }
 spitz.return = function (r) {
-   setTimeout(function(x) {
- postMessage(x)
+   setTimeout(function(r) {
+ postMessage("止")
  },100)
 }
 
