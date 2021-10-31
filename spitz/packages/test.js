@@ -7,7 +7,7 @@ spitz.print = function (x) {
 spitz.return = function (r) {
  setTimeout(function() {
  postMessage("止")
- },100)
+ },25)
 }
 
 
