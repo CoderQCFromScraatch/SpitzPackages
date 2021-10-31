@@ -12,6 +12,5 @@ spitz.return = function (r) {
 onmessage = function(arg) {
  args = arg.data
  spitz.print("#")
-  spitz.print("AMAZING")
   spitz.return()
 };
