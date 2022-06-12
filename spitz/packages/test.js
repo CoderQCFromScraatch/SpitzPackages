@@ -13,5 +13,5 @@ onmessage = function(arg) {
  args = arg.data
 
 };
- spitz.print("#")
+ spitz.print("OK")
   spitz.return()
